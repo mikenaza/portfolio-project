@@ -1,0 +1,69 @@
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+    padding-top: 115px;
+}
+h1{
+  text-align: right;
+  display: block;
+  font-family: "lato", sans-serif;
+  font-weight: 200;
+}
+
+.sub-heading {
+  float: right;
+  font-family: "lato", sans-serif;
+  font-weight: 300;
+
+}
+hr {
+  height: 5px;
+  background-color: #BCBBBB;
+  border: 0px;
+}
+
+header {
+  height: 100px;
+  background-color: #FFF;
+  box-shadow: 0px 3px 5px #BCBBBB;
+}
+
+.logo {
+  width: 125px;
+}
+.name {
+  text-align: right;
+  padding-right: 5px;
+  font-family: 'Lato', sans-serif;
+}
+.navbar-brand {
+  font-size: 2em;
+  font-family: "Lato";
+  font-weight: 100;
+}
+/*.navbar-nav {
+  float: right;
+}*/
+
+.featured-work-title {
+  font-size: 2em;
+  text-align: left;
+}
+
+/*.row {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 5px;
+  border: 1px solid black;
+}*/
+.work {
+  padding: 5px;
+  margin-right: 10px;
+  width: 32%;
+}

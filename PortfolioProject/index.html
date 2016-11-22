@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Michael's Portfolio</title>
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/main.css">
+        <link href="https://fonts.googleapis.com/css?family=Lato:300,400" rel="stylesheet">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+        <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    </head>
+    <body>
+      <main class="container-fluid">
+        <header class="container-fluid navbar-fixed-top">
+          <nav>
+            <a class="navbar-brand" href="#"><img src="img/logo.png" alt="logo" class="logo"></a>
+            <ul class="nav navbar-nav">
+              <li class="nav-item active">
+                <a class="nav-link" href="#">Portfolio<span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">Contact</a>
+              </li>
+            </ul>
+          </nav>
+          <h1>Michael Nazari</h1>
+          <span class="sub-heading">Front-End Web Developer</span>
+        </header>
+        <section id="portfolio" class="row">
+          <article class="work col-md-4 col-md-offset-2">
+            <img class="img-responsive" alt="project image" id="project1" src="img/quotemachine.png" data-toggle="modal" data-target="#project1">
+          </article>
+          <article class="work col-md-4 ">
+            <img class="main-img" src="img/thingstoremember.png" alt="project image">
+          </article>
+        </section>
+        <section class="row">
+          <article class="work col-md-4 col-md-offset-2">
+            <img src="img/forcedtoobserve.png" alt="project image">
+          </article>
+          <article class="work col-md-4">
+            <img src="http://placekitten.com/450/450" alt="project image">
+          </article>
+        </section>
+        <section id="contact"></section>
+        <footer></footer>
+      <main>
+        <!-- Modal -->
+    <div class="modal fade" id="project1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" id="myModalLabel">Favorite App Page</h4>
+                </div>
+                <div class="modal-body">
+                    <img class="img-responsive" src="http://placehold.it/450x450">
+                    This was my first project in this class. I learned a lot about HTML and CSS.
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+  </body>
+</html>
